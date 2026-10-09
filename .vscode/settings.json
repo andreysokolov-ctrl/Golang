@@ -1,0 +1,37 @@
+{
+  // --- Интерфейс и шрифты ---
+  "editor.fontSize": 20, // Размер шрифта
+  "editor.fontFamily": "Fira Code, JetBrains Mono, Consolas, monospace", // Семейство шрифтов
+  "editor.fontLigatures": true, // Включение лигатур (если поддерживает шрифт)
+  "editor.lineHeight": 22, // Высота строки для лучшей читаемости
+  "window.zoomLevel": 0, // Масштаб самого интерфейса VS Code
+  "workbench.iconTheme": "vs-seti", // Тема иконок (требуется плагин vscode-icons)
+
+  // --- Редактор и поведение кода ---
+  "editor.tabSize": 4, // Размер табуляции (4 пробела)
+  "editor.insertSpaces": true, // Конвертировать табы в пробелы
+  "editor.wordWrap": "on", // Автоматический перенос длинных строк
+  "editor.cursorBlinking": "smooth", // Плавное мигание курсора
+  "editor.cursorSmoothCaretAnimation": "on", // Плавная анимация перемещения курсора
+  "editor.minimap.enabled": false, // Отключение мини-карты справа (освобождает место)
+
+  // --- Форматирование и сохранение ---
+  "files.autoSave": "afterDelay", // Автосохранение файлов при потере фокуса или задержке
+  "files.autoSaveDelay": 1000, // Задержка автосохранения в миллисекундах (1 сек)
+  "editor.formatOnSave": true, // Автоматическое форматирование кода при сохранении
+  "editor.defaultFormatter": "esbenp.prettier-vscode", // Дефолтный форматировщик (требуется плагин Prettier)
+  "files.trimTrailingWhitespace": true, // Удалять лишние пробелы на концах строк при сохранении
+  "files.insertFinalNewline": true, // Всегда добавлять пустую строку в конец файла
+
+  // --- Терминал ---
+  "terminal.integrated.fontSize": 20, // Размер шрифта в терминале
+  "terminal.integrated.cursorBlinking": true, // Мигание курсора в терминале
+
+  // --- Управление окнами и файлами ---
+  "explorer.confirmDelete": false, // Не спрашивать подтверждение при удалении в корзину
+  "explorer.confirmDragAndDrop": false, // Не спрашивать подтверждение при перетаскивании файлов
+  "workbench.editor.enablePreview": false, // Открывать файлы сразу в новой вкладке, а не в режиме превью
+
+  // --- Телеметрия (приватность) ---
+  "telemetry.telemetryLevel": "off" // Отключение отправки отчетов об использовании в Microsoft
+}
